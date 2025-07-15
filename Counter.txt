@@ -1,0 +1,8 @@
+-- You only need one
+-- You will be given an array a and a value x. All you need to do is check whether the provided array contains the value.
+-- a can contain numbers or strings. x can be either.
+-- Return true if the array contains the value, false if not.
+
+-- you will be given a table, goals, with columns la_liga_goals, copa_del_rey_goals, and champions_league_goals. Return a table with a column, res.
+
+SELECT (la_liga_goals + copa_del_rey_goals + champions_league_Goals) as res FROM goals;
